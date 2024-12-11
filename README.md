@@ -119,3 +119,36 @@ git push https://github.com/devopstraininghub/b15projectrepo.git <brname>
 git push origin <brname>
 
 git push origin -d  <brname>
+======================================================================
+
+9 DEC 2024: 
+
+LINUX FILE EDIOR : Vi/vim  edior / nano editor 
+
+VIM/ VI editor:
+--
+
+vim madhufile
+--------
+esc i   --- > insert mode 
+....
+.... data - xyx 
+....
+
+
+esc :w  (save)
+
+esc :q  (quit) 
+or
+esc :wq
+or
+esc :q!
+==================================================
+
+
+git cherry-pick cid 
+
+==================
+
+git conflict 
+===============================================
