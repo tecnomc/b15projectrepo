@@ -145,10 +145,88 @@ or
 esc :q!
 ==================================================
 
-
 git cherry-pick cid 
 
 ==================
 
 git conflict 
-===============================================
+
+============
+10 dec :
+
+PR (Pull Requests) 
+
+
+fork - open source project contribution
+
+==============
+11 dec 2024:
+
+protecting main branch 
+
+==========
+
+FILTERING:
+
+git log --oneline 
+git log --oneline -n 
+git log --author kiran
+git log --since "12-10-2024"
+
+ 
+           This option filters the commits to only show those that were made after the specified date
+           The date format used here is "MM-DD-YYYY"
+
+========================
+git config --list 
+
+========================
+
+Alias
+-----
+git status  ---> git s 
+
+git config --global alias.s "status"
+
+git config --global alias.s "status"
+git config --global alias.s "status"
+git s
+
+git log
+git config --global alias.l "log"
+git l
+
+
+git log --oneline
+git config --global alias.lo "log --oneline"
+git lO
+
+======
+git config --global --unset alias.ss
+
+==============================
+
+amend
+-----
+git commit --amend -m "label" -m "label2" -m "label3"
+
+====================================
+
+revert
+------
+git revert cid
+
+======================================
+
+only for modified files :
+
+git commit -am "messgae"
+
+=======================================
+
+
+git reset HEAD fname ---> staging to WS 
+
+git reset --soft cid (n-1)  ----> LR to Staging
+
+git reset --mixed cid (n-1) ----> LR to Workspace
