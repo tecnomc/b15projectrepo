@@ -1,0 +1,166 @@
+56  git commit -m "reset"
+  157  ls
+  158  git status
+  159  git log
+  160  git status
+  161  l
+  162  sll
+  163  ll
+  164  git branch
+  165  git merge rel
+  166  ls
+  167  rm -rf rc arun ram~rel
+  168  ls
+  169  git add .
+  170  git status
+  171  git commit -m "del all"
+  172  git checkout rel
+  173  git status
+  174  git log -3
+  175  ls
+  176  rm -rf *
+  177  l
+  178  sll
+  179  ls
+  180  touch v1
+  181  git add .
+  182  git commit -m v1
+  183  git checkout master
+  184  ls
+  185  touch y1
+  186  git add .
+  187  git commit -m "y1"
+  188  git checkout rel
+  189  touch v2
+  190  git add .
+  191  git commit -m "v2"
+  192  git checkout master
+  193  touch y2
+  194  git status
+  195  git add .
+  196  git commit -m "y2"
+  197  git merge rel
+  198  git log -2
+  199  touch a5
+  200  git add .
+  201  git commit -m "a5"
+  202  touch arm
+  203  git add .
+  204  git commit -m "ar"
+  205  git log --oneline
+  206  git checkout rel
+  207  git cherry-pick fa2813e
+  208  l
+  209  sls
+  210  ls
+  211  git branch -r
+  212  git branch
+  213  ls
+  214  cd b15projectrepo/
+  215  ls
+  216  git branch -r
+  217  git checkout Manorama
+  218  git checkout swetha
+  219  git checkout Anoop --
+  220  git merge swetha
+  221  l
+  222  sls
+  223  ls
+  224  git status
+  225  git log --oneline -3
+  226  git revert 94cfa5b
+  227  git status
+  228  git revert 94cfa5b
+  229  git revert e226973
+  230  ls
+  231  cd Dec15/
+  232  ls
+  233  cat gitclass4
+  234  git status
+  235  cd ..
+  236  git push origin Anoop
+  237  git checkout main
+  238  git push origin Anoop
+  239  git checkout Anoop
+  240  git add .
+  241  git status
+  242  ls
+  243  git log -4
+  244  git checkout main
+  245  git push https://github.com/devopstraininghub/b15projectrepo.git Anoop
+  246  git pull --rebase
+  247  git push https://github.com/devopstraininghub/b15projectrepo.git Anoop
+  248  git push origin Anoop
+  249  git checkout Anoop
+  250  git push origin Anoop
+  251  git pull --rebase
+  252  git pull origin Anoop
+  253  ls
+  254  git log -3
+  255  git push origin Anoop
+  256  git revert 179619a75a457d2deee0916981aed12ade800341
+  257  git log --oneline
+  258  git log --auther anoop
+  259  git log --auther Anoop
+  260  git log --auther Kumar
+  261  git log --auther kumar
+  262  git show
+  263  git log --author Anoop
+  264  git revert 8a3c1d6bb0e4ace8e91b357b272dd62fea812214
+  265  ls
+  266  git status
+  267  git push origin Anoop
+  268  git pull origin Anoop
+  269  ls
+  270  rm -rf devops
+  271  git status
+  272  git add . && git commit -m "del devops"
+  273  git status
+  274  git log --since 12-17-2024
+  275  git push origin Anoop
+  276  git config --list
+  277  git config --global alias.s "status"
+  278  git config --list
+  279  git s
+  280  git config --global --unset alias.s
+  281  git config --list
+  282  git s
+  283  touch a1 a2 a3
+  284  git add . && git commit -m "a1 a2 a3"
+  285  touch a4
+  286  git add .
+  287  git commit --amend -m "a1 a2 a3 a4"
+  288  git log -3
+  289  git commit --amend -m "all files of a" -m "c17de186db93004c7aa850f861da1cbf2a19fcf5"
+  290  git log -3
+  291  vim a1
+  292  git commit -am "a1"
+  293  git status
+  294  touch anup
+  295  git add .
+  296  git status
+  297  git reset HEAD anup
+  298  git status
+  299  git add . && git commit -m "anup"
+  300  git log -2
+  301  git reset --soft f144bd0babb7e796e8e2daa38971bbae84084b94
+  302  git log -2
+  303  git status
+  304  git reset HEAD anup
+  305  git status
+  306  git add . && git commit -m "anup"
+  307  git log -2
+  308  git reset --mixed f144bd0babb7e796e8e2daa38971bbae84084b94
+  309  git log -2
+  310  git status
+  311  rm -rf anup
+  312  ls
+  313  rm -rf a1 a2 a4 a3 arun
+  314  mv Dec15 git
+  315  ls
+  316  mv git git_pract
+  317  ls
+  318  git status
+  319  git add . && git commit -m "rename of Dec15"
+  320  git push origin Anoop
+  321  history
