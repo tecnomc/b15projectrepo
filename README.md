@@ -230,3 +230,99 @@ git reset HEAD fname ---> staging to WS
 git reset --soft cid (n-1)  ----> LR to Staging
 
 git reset --mixed cid (n-1) ----> LR to Workspace
+
+===========================================================
+
+DATE: 13 DEC 2024
+
+TAG :
+
+git tag 
+
+git tag <tag.name>
+git checkout <tag.name>
+
+git push origin <t.name>
+
+git tag -d <t.name>
+
+git push origin -d  <t.name>
+
+git checkout refs/tags/v1.0
+
+=============================================
+
+git merge  vs git rebase 
+
+git rebase: Reapplies commits from one branch onto another, creating a linear history by rewriting commit history. This makes the history cleaner but alters commit hashes.
+
+git merge: Combines the changes from two branches without altering commit history. It creates a merge commit, preserving the history of both branches.
+
+================================================
+
+git pull --rebase 
+
+======================
+git pull vs git fetch 
+
+========================
+
+git pull --> git fetch + git merge origin
+
+
+git pull --rebase
+
+
+=========================
+
+git stash list
+git stash save "label"
+
+git stash show stash@{x}
+
+POP, APPLY, DROP
+-----------------
+POP - cut
+----
+git stash pop
+
+
+APPLY  - copy
+------
+git stash apply
+
+
+DROP  - delete
+-----
+git stash drop
+
+--------------------------
+.git/refs/stash
+
+=========
+.gitignore 
+
+log files 
+
+
+============================
+
+vcs // scm 
+
+
+Centralized Version Control Systems (CVCS) --> svn 
+VS
+Distributed Version Control Systems (DVCS) --> git 
+
+============================
+git branching strategy in your project ?
+
+REALTIME OPEN SOURCE PROJECT 
+-----
+upstream 
+git fork 
+git 
+git clean 
+=======================
+
+
