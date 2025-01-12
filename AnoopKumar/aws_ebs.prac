@@ -59,7 +59,8 @@ a  b  c  lost+found
 a  b  c  lost+found  ragchgch
 
 ---------------------------------------------------------------------------------
-#Snapshot created for ser1 vol and created volume using snapshot
+#Snapshot created for ser1 vol and created volume using snapshot in different availability zone and also in diff region..
+
 [root@ip-172-31-81-222 ~]# hostnamectl set-hostname Aws-2
 [root@ip-172-31-81-222 ~]# sudo su -
 Last login: Sun Jan 12 09:26:12 UTC 2025 on pts/1
